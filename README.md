@@ -1,4 +1,4 @@
-#Expandable chapters for Honkit
+# Expandable chapters for Honkit
 ==============
 
 This plugin adds an icon to each chapter, that has a child and css states for the child list to collapse/expand ones.
