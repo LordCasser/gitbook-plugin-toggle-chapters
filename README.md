@@ -1,12 +1,32 @@
-# Toggle Chapters on GitBook
+#Expandable chapters for Honkit
+==============
 
-## Install it using:
+This plugin adds an icon to each chapter, that has a child and css states for the child list to collapse/expand ones.
 
-```$ npm install gitbook-plugin-toggle-chapters```
+### How to use it?
 
-To use it in your book, add this to book.json:
+Add it to your `book.json` configuration:
+
 ```
 {
-    "plugins": ["toggle-chapters"]
+    plugins: ["toggle-chapters"]
+}
+```
+
+Install your plugins using:
+
+```
+npm install honkit-plugin-toggle-chapters
+```
+
+### Configuration
+
+There is no configuration needed at the moment, can be left empty.
+
+```
+{
+	"pluginsConfig": {
+		"toggle-chapters":{}
+	}
 }
 ```
